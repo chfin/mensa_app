@@ -1,7 +1,13 @@
 enyo.kind({
 	name: "Socialunch",
-	kind: enyo.Control,
-	tag: 'p',
-	content: 'Hello, World!',
-	style: 'color: blue'
+	kind: enyo.FittableRows,
+	classes: "onyx",
+	components: [
+		{kind: "onyx.Toolbar", components: [
+			{content: "Socialunch"}
+		]},
+		{kind: "enyo.Scroller", fit: true, components: [
+			{kind:"Register", style:"padding:25px;"}
+		]}
+	]
 });

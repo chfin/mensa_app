@@ -8,6 +8,13 @@ enyo.kind({
 		]},
 		{kind: "enyo.Scroller", fit: true, components: [
 			{kind:"Register", style:"padding:25px;"}
+		]},
+		{kind: "onyx.Toolbar", style:"text-align:center", components: [
+			{kind: "onyx.RadioGroup", style:"margin:0 auto; display:block; width: 300px", components: [
+				{content: "Alpha", active: true},
+				{content: "Beta"},
+				{content: "Gamma"}
+				]}
 		]}
 	]
 });

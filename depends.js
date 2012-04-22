@@ -1,7 +1,8 @@
 enyo.depends(
-	"$lib/onyx",
-	"$lib/extra/jsonp",
-	"$lib/layout/fittable",
+	"$lib/onyx", 
+	"$lib/extra/jsonp", 
+	"$lib/layout/fittable", 
+	"$lib/books/source", 
 	"js/Socialunch.js",
-	"js/Register.js"
+	"js/Login.js"
 );

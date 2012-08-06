@@ -1,0 +1,157 @@
+/* === LAYOUT === */
+.paper-grain {
+	background: #ffffca url(../../assets/paper-grain.png) center center;
+	color: #6c6c6c;
+}
+
+.top-bar {
+	border:0;
+	border-bottom: 4px solid #A1BD00;
+	padding:0;
+}
+
+.top-bar .logo {
+	border-right:1px solid #222;
+}
+
+.top-bar img {
+	height: 1.8em;
+	margin: 0.5em 0.5em 0.3em 0.5em;
+}
+
+.top-bar .icon-button {
+	border-left:1px solid #3f3f3f;
+	border-right: 1px solid #222;
+	height: 2.8em;
+	background-size:auto 65%;
+	background-position: center center;
+	margin:0;
+	padding: 0 2em;
+}
+
+.bottom-bar, .top-bar {
+	background:
+		-moz-linear-gradient(top, rgba(0,0,0,.0) 20%,rgba(0,0,0,.3) 100%),
+		url(../../assets/low_contrast_linen.png) center center;
+	background:
+		-webkit-linear-gradient(top, rgba(0,0,0,.0) 20%,rgba(0,0,0,.3) 100%),
+		url(../../assets/low_contrast_linen.png) center center;
+}
+
+/* === icons in the bottom bar === */
+.onyx-icon.active, .onyx-icon:active:hover {
+	background-position: center center;
+	box-shadow:inset 2px 2px 10px rgba(0,0,0,.6) !important;
+	border-left: 1px solid #222;
+}
+
+.bottom-bar {
+	padding: 0;
+	text-align: center;
+	box-shadow: inset 1px 1px rgba(255,255,255,.1);
+}
+
+.onyx-toolbar.bottom-bar .onyx-icon-button {
+	margin:0;
+}
+
+.bottom-bar .icon-button {
+	border-left:1px solid #3f3f3f;
+	border-right: 1px solid #222;
+	width: 20%;
+	height: 60px;
+	background-size:auto 65%;
+	background-position: center center;
+	margin:0;
+}
+
+.bottom-bar .first-icon {border-left:0 !important;}
+.bottom-bar .last-icon {border-right:0;}
+
+/* === LOGIN === */
+body {
+	background: #222;
+}
+
+.login {
+	background:#222;
+	background: radial-gradient(ellipse at center 20%, #333 0%,#222 75%);
+	background: -moz-radial-gradient(center 20%, ellipse cover, #333 0%, #222 75%);
+	padding: 1.5em;
+	text-align: center;
+	color: #888;
+}
+
+.login p {
+	text-align:left;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.8);
+	max-width:440px;
+	margin:1em auto;
+	line-height:1.5em;
+}
+
+.login strong {
+	color: #fff;
+	text-decoration:underline;
+	font-weight:normal;
+	cursor:pointer;
+}
+
+.login .logo {
+	margin: 2em auto 2em auto;
+}
+
+.login .onyx-groupbox {
+	text-align:left;
+	box-shadow: 0 2px 7px #000;
+	max-width:440px;
+	margin:0 auto;
+}
+
+.login .onyx-groupbox .onyx-groupbox-header {
+	background:#A1BD00;
+	background:linear-gradient(to bottom, #A1BD00 0%,#809700 100%);
+	background:-moz-linear-gradient(top, #A1BD00 0%,#809700 100%);
+	background:-webkit-linear-gradient(top, #A1BD00 0%,#809700 100%);
+	text-shadow:-1px -1px rgba(0,0,0,.2);
+	padding: 4px 10px;
+	box-shadow: inset 1px 1px rgba(255,255,255,.2);
+	border-bottom:1px solid #6C8033;
+}
+
+.login .onyx-groupbox .onyx-input-decorator {
+	border-color:#A1BD00;
+	border-left-color: #A5BA63;
+	background: #fff;
+}
+
+.button-green {
+	background:linear-gradient(to bottom, #A1BD00 0%,#809700 100%);
+	background:-moz-linear-gradient(top, #A1BD00 0%,#809700 100%);
+	background:-webkit-linear-gradient(top, #A1BD00 0%,#809700 100%);
+	color:#fff;
+	text-shadow:-1px -1px rgba(0,0,0,.2);
+	padding: 5px 10px;
+	box-shadow: 
+		inset 1px 1px rgba(255,255,255,.2),
+		0 2px 7px #000;
+	font-weight:bold;
+	text-transform: uppercase;
+	border:0;
+	margin:0 0 0.5em 0;
+}
+
+.button-green.active, .button-green:active, .button-green:focus {
+	background-image:none !important;
+	box-shadow: 
+		inset 1px 2px 5px rgba(0,0,0,.5),
+		1px 1px rgba(255,255,255,.15) !important;
+	background: #A1BD00;
+	border:0 !important;
+}
+
+.login .button-green {
+		width: 100%;
+		max-width:440px;
+}
+

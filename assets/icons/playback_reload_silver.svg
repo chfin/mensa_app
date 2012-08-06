@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="57.6px" height="57.6px" viewBox="0 0 57.6 57.6" enable-background="new 0 0 57.6 57.6" xml:space="preserve">
+<filter  id="AI_GaußscherWeichzeichner_1.5">
+	<feGaussianBlur  stdDeviation="1.5"></feGaussianBlur>
+</filter>
+<g opacity="0.75" filter="url(#AI_GaußscherWeichzeichner_1.5)">
+	<path d="M53.022,6.088l-7.25,6.011c-4.104-3.387-9.366-5.422-15.104-5.422c-13.113,0-23.744,10.63-23.744,23.744
+		c0,13.113,10.63,23.743,23.744,23.743c10.629,0,19.626-6.983,22.653-16.613l-8.757-1.544c-2.289,5.414-7.649,9.214-13.896,9.214
+		c-8.331,0-15.083-6.753-15.083-15.084c0-8.33,6.753-15.083,15.083-15.083c3.185,0,6.139,0.987,8.573,2.672l-8.032,7.112
+		l23.119,3.667V6.088H53.022z"/>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="29.0952" y1="52.8799" x2="29.0952" y2="4.8032">
+	<stop  offset="0" style="stop-color:#CDCDCD"/>
+	<stop  offset="1" style="stop-color:#F1F1F1"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M51.49,4.803l-7.25,6.011c-4.104-3.387-9.366-5.422-15.104-5.422
+	c-13.113,0-23.744,10.63-23.744,23.744S16.023,52.88,29.137,52.88c10.629,0,19.626-6.983,22.653-16.613l-8.757-1.544
+	c-2.289,5.414-7.649,9.214-13.896,9.214c-8.331,0-15.083-6.753-15.083-15.084c0-8.331,6.753-15.083,15.083-15.083
+	c3.185,0,6.139,0.987,8.573,2.672l-8.032,7.112l23.119,3.667V4.803H51.49z"/>
+</svg>

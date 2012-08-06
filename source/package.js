@@ -1,0 +1,11 @@
+enyo.depends(
+	"$lib/onyx/source",
+	"$lib/layout/fittable/source",
+	"$lib/layout/panels/source",
+	"js/cookieHandler.js",
+	"js/Socialunch.js",
+	"js/Login.js",
+	"js/IconButton.js",
+	"$enyo/enyo.css",
+	"css/app.css"
+);

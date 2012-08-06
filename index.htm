@@ -2,14 +2,21 @@
 <html>
 <head>
 		<title>Socialunch</title>
-		<link rel="stylesheet" href="lib/enyo/enyo-2.0b3/enyo.css">
-		<link rel="stylesheet" href="css/app.css">
-		<script src="lib/enyo/enyo-2.0b3/enyo.js"></script>
-		<script src="depends.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<script src="enyo/enyo.js"></script>
+		<script src="source/package.js"></script>
 </head>
 <body>
 <script type="text/javascript">
-	new Socialunch().renderInto(document.body);
+	if (isLoggedIn()) {
+		new Socialunch({classes: "enyo-unselectable"}).write();
+	}
+	else {
+		new Login({classes: "enyo-unselectable"}).write();
+	}
 </script>
 </body>
 </html>
